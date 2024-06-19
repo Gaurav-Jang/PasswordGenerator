@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.card-body {
+  margin: auto;
+  background-color: #cfe5fd;
+  width: 520px;
+  padding: 27px;
+  border-radius: 6px;
+}
+.section-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 input {
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #00000042;
+  width: 100%;
+}
+.copy-btn {
+  font-size: 17px;
+  padding: 5px 17px;
+  margin-top: 12px;
+  border-radius: 4px;
+  border: 1px solid #00000016;
+  background-color: #3a85f8;
+  color: white;
+}
+.card-body h1 {
+  color: black;
+  margin-bottom: 12px;
+}
+.card-body h2 {
+  margin-top: 25px;
+}
+.card-body .card-body label {
+  color: black;
+}
+.pass-length {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  row-gap: 8px;
+}
+.pass-length input {
+  width: 100%;
+}
+.checkbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 13px;
+  row-gap: 8px;
+  column-gap: 10px;
+}
